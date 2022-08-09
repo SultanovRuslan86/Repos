@@ -1,0 +1,38 @@
+.d-flex {
+    height:600px
+    width: 60%;
+}
+.container {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-top: 10px;
+    width: 80%;
+}
+.last_line {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-right: 220px;
+    margin-left: 220px;
+}
+.mb-3 {
+    margin-right: 220px;
+    margin-left: 220px;
+}
+.form-control {
+    height: 37px;
+}
+.line_end {
+    color:red;
+    margin-top: 10px;
+}
+.hidden {
+    display:none;
+}
+.line_end {
+    margin-left: 220px;
+}
+.btn {
+    width:180px;
+}
