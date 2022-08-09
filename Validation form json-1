@@ -1,0 +1,62 @@
+var form = document.querySelector('.was-validated')
+var btn = form.querySelector('.btn')
+var line_end = form.querySelector('.line_end')
+var form_name = form.querySelector('.form_name')
+var form_login = form.querySelector('.form_login')
+var password = form.querySelector('.password')
+let jsonObj = localStorage.users;
+let Users = JSON.parse(jsonObj);
+
+localStorage.users = JSON.stringify(Users);
+
+form.addEventListener('submit', function(event) {
+  event.preventDefault()
+
+
+    let jsonObj = localStorage.users;
+    let Users;
+    if (jsonObj === undefined) {
+    Users = [];
+    } else {
+    Users = JSON.parse(jsonObj);
+    }
+
+  let userFound = false;
+  for (let i=0; i<Users.length; i++) {
+    if (Users[i].login === form_login.value) {
+        console.log("OK")
+        userFound = true;
+        line_end.classList.remove('hidden');
+        break;
+        }
+    }
+
+  count = 0
+  for (let i=0; i<Users.length; i++) {
+    if (form_login.value === Users[i].login) {
+        count+=1
+    }
+  }
+  if (count < 1) {
+    alert("registration completed successfully...");
+  }
+
+  let addUser = false;
+  for (let u of Users) {
+    if (count < 1 && form_name.value != '' && password.value != '') {
+        addUser = true;
+        let name = form_name.value;
+        let login = form_login.value;
+        let password_1 = password.value;
+        let newUser={};
+        newUser.name = name;
+        newUser.login = login;
+        newUser.password = password_1;
+        Users.push(newUser);
+        localStorage.users = JSON.stringify(Users);
+        break;
+    }
+  }
+})
+
+
