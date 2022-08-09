@@ -1,0 +1,23 @@
+var form = document.querySelector('.was-validated')
+var btn = form.querySelector('.btn')
+var line_end = form.querySelector('.line_end')
+var form_login = form.querySelector('.form_login')
+var password = form.querySelector('.password')
+let jsonObj = localStorage.users;
+let Users = JSON.parse(jsonObj);
+
+form.addEventListener('submit', function (event) {
+  event.preventDefault()
+  count = 0
+  for (let i=0; i<Users.length; i++) {
+    if (Users[i].login === form_login.value && Users[i].password === password.value) {
+        alert("Welcome......! " + Users[i].name)
+        count+=1
+    }
+    }
+
+  if (count<1) {
+     line_end.classList.remove('hidden');
+    }
+
+})
