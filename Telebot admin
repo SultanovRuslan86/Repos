@@ -1,0 +1,325 @@
+import mysql.connector
+
+mydb = mysql.connector.connect(
+    host = 'localhost',
+    user = 'root',
+    password = '',
+    database = 'mysql'
+)
+
+
+def getClubByBox():
+    global mydb
+    mycursor = mydb.cursor()
+    sql = "SELECT Sport.name, Sport.description, Sport.price, Sport_clubs.name, Sport_clubs.addr, Sport_clubs.teaname, Sport_clubs.phone, Sport_time.name " \
+          "FROM Sport JOIN Sport_clubs ON Sport.sportclub_id = Sport_clubs.Sport_id " \
+          "JOIN Sport_time ON Sport.sportime_id = Sport_time.id " \
+          "WHERE Sport.name='Бокс'"
+    mycursor.execute(sql)
+    result = mycursor.fetchall()
+    for c in result:
+        print(c)
+    getClubByBox()
+
+
+mycursor = mydb.cursor()
+mycursor.execute("SHOW DATABASES")
+for db in mycursor:
+    print(db)
+
+mycursor=mydb.cursor()
+sql= "CREATE TABLE Sport_clubs(id INT AUTO_INCREMENT PRIMARY KEY, name varchar(30), " \
+     "addr varchar(40), dist varchar(20), Sport_id int(20), sptime_id int(5)," \
+     "teaname varchar(50), phone int(16))"
+mycursor.execute(sql)
+mydb.commit()
+
+mycursor=mydb.cursor()
+sql="CREATE TABLE Sport_time(id INT AUTO_INCREMENT PRIMARY KEY, name varchar(30))"
+mycursor.execute(sql)
+mydb.commit()
+
+mycursor=mydb.cursor()
+sql="CREATE TABLE Sport(id INT AUTO_INCREMENT PRIMARY KEY, name varchar(30), price int(12), description varchar(200), sportime_id int(30), sportclub_id int(15))"
+mycursor.execute(sql)
+mydb.commit()
+
+def getClubByGr():
+    global mydb
+    mycursor = mydb.cursor()
+    sql = "SELECT Sport.name, Sport.description, Sport.price, Sport_clubs.name, Sport_clubs.addr, Sport_clubs.teaname, Sport_clubs.phone, Sport_time.name " \
+          "FROM Sport JOIN Sport_clubs ON Sport.sportclub_id = Sport_clubs.Sport_id " \
+          "JOIN Sport_time ON Sport.sportime_id = Sport_time.id " \
+          "WHERE Sport.name='Бокс'"
+    mycursor.execute(sql)
+    result = mycursor.fetchall()
+    for c in result:
+        print(c)
+# #
+getClubByGr()
+
+def getSpByClub():
+    global mydb
+    mycursor = mydb.cursor()
+    sql = "SELECT Sport_clubs.name, Sport_clubs.addr, Sport_clubs.dist, " \
+          "Sport.name, Sport.description, Sport.price, Sport_time.name, Sport_clubs.teaname, Sport_clubs.phone " \
+          "FROM Sport_clubs JOIN Sport ON Sport_clubs.Sport_id = Sport.sportclub_id " \
+          "JOIN Sport_time ON Sport_clubs.sptime_id = Sport_time.id"
+    mycursor.execute(sql)
+    result = mycursor.fetchall()
+    for c in result:
+        print(c)
+
+getSpByClub()
+
+mycursor = mydb.cursor()
+sql = "INSERT INTO Sport(name, price, description, sportime_id, sportclub_id) VALUES (%s, %s, %s, %s, %s)"
+values = ('Самбо боевое', 15000, 'ударная техника рук и ног, броски, захваты', 1, 26)
+mycursor.execute(sql, values)
+mydb.commit()
+
+mycursor = mydb.cursor()
+sql = "INSERT INTO Sport_clubs(name, addr, dist, Sport_id, sptime_id, teaname, phone) VALUES(%s, %s, %s, %s, %s, %s, %s)"
+values = ('FC Result', 'ул.Торайгырова 39', 'Бостандыкский', 25, 1, 'Харлампиев А.', 727456765)
+mycursor.execute(sql, values)
+mydb.commit()
+
+mycursor = mydb.cursor()
+sql = "INSERT INTO Sport_time(name) VALUES('Вечерние тренировки')"
+mycursor.execute(sql)
+mydb.commit()
+
+mycursor = mydb.cursor()
+sql = "SELECT * FROM Sport"
+mycursor.execute(sql)
+result = mycursor.fetchall()
+for name in result:
+  print(name)
+
+def addSport_clubs(name, addr, dist, Sport_id, sptime_id, teaname, phone):
+    global mydb
+    mycursor = mydb.cursor()
+    sql = "INSERT INTO Sport_clubs(id, name, addr, dist, Sport_id, sptime_id, teaname, phone) VALUES (null, %s, %s, %s, %s, %s, %s, %s)"
+    values = (name, addr, dist, Sport_id, sptime_id, teaname, phone)
+    mycursor.execute(sql, values)
+    mydb.commit()
+
+def delSport_clubs(id):
+    global mydb
+    mycursor = mydb.cursor()
+    sql = "DELETE FROM Sport_clubs WHERE id="+str(id)
+    mycursor.execute(sql)
+    mydb.commit()
+
+def updaSport_clubs(id, name, addr, dist, Sport_id, sptime_id, teaname, phone):
+    global mydb
+    mycursor = mydb.cursor()
+    sql = "UPDATE Sport_clubs SET name=%s, addr=%s, dist=%s, Sport_id=%s, sptime_id=%s, teaname=%s, phone=%s WHERE id="+str(id)
+    values = (name, addr, dist, Sport_id, sptime_id, teaname, phone)
+    mycursor.execute(sql, values)
+    mydb.commit()
+
+def getSport_clubs():
+  global mydb
+  mycursor = mydb.cursor()
+  sql = "SELECT * FROM Sport_clubs"
+  mycursor.execute(sql)
+  result = mycursor.fetchall()
+  return result
+
+
+def addSport_time(name):
+    global mydb
+    mycursor = mydb.cursor()
+    sql = "INSERT INTO Sport_time(name) VALUES(%s)"
+    mycursor.execute(sql, (name,))
+    mydb.commit()
+
+def delSport_time(id):
+    global mydb
+    mycursor = mydb.cursor()
+    sql = "DELETE FROM Sport_time WHERE id="+str(id)
+    mycursor.execute(sql)
+    mydb.commit()
+
+def updaSport_time(id, name):
+    global mydb
+    mycursor = mydb.cursor()
+    sql = "UPDATE Sport_time SET name=%s WHERE id="+str(id)
+    mycursor.execute(sql, (name,))
+    mydb.commit()
+
+def getSport_time():
+  global mydb
+  mycursor = mydb.cursor()
+  sql = "SELECT * FROM Sport_time"
+  mycursor.execute(sql)
+  result = mycursor.fetchall()
+  return result
+
+
+
+def addSport(name, price, description, sportime_id, sportclub_id):
+    global mydb
+    mycursor = mydb.cursor()
+    sql = "INSERT INTO Sport(id, name, price, description, sportime_id, sportclub_id) VALUES (null, %s, %s, %s, %s, %s)"
+    values = (name, price, description, sportime_id, sportclub_id)
+    mycursor.execute(sql, values)
+    mydb.commit()
+
+def delSport(id):
+    global mydb
+    mycursor = mydb.cursor()
+    sql = "DELETE FROM Sport WHERE id="+str(id)
+    mycursor.execute(sql)
+    mydb.commit()
+
+def updaSport(id, name, price, description, sportime_id, sportclub_id):
+    global mydb
+    mycursor = mydb.cursor()
+    sql = "UPDATE Sport SET name=%s, price=%s, description=%s, sportime_id=%s, sportclub_id=%s WHERE id="+str(id)
+    values = (name, price, description, sportime_id, sportclub_id)
+    mycursor.execute(sql, values)
+    mydb.commit()
+
+def getSport():
+  global mydb
+  mycursor = mydb.cursor()
+  sql = "SELECT * FROM Sport"
+  mycursor.execute(sql)
+  result = mycursor.fetchall()
+  return result
+
+
+print("Приветствую тебя друг!")
+print("Выбери что ты хочешь отредактировать в данных:")
+
+while True:
+    print('Нажми 1, чтобы - добавить/удалить/обновить сведения о спортивных клубах и вывести их список')
+    print('Нажми 2, чтобы - добавить/удалить/обновить сведения по времени для тренировок')
+    print('Нажми 3, чтобы - добавить/удалить/обновить цену, описание вида спорта')
+    print('PRESS 0 TO EXIT')
+    choice = int(input())
+    if choice == 1:
+        print(input('добавить спортивный клуб ?, нажми 1'))
+        print(input('удалить спортивный клуб ?, нажми 2'))
+        print(input('обновить спортивный клуб ?, нажми 3'))
+        print(input('вывести список спортивных клубов ?, нажми 4'))
+        choice_1 = int(input())
+        if choice_1==1:
+            print("введи название спортивного клуба:")
+            name=input()
+            print("введи адрес спортивного клуба:")
+            addr = input()
+            print("введи район нахождения спортивного клуба(Бостандыкский, Алмалинский, Алатауский, Медеуский, Наурызбайский, Жетысуский, Ауэзовский, Турксибский):")
+            dist = input()
+            print("введи цифровое значение(номер ID) вида спорта, чтобы совпадал со значением в таблице SPORT")
+            Sport_id = int(input())
+            print("введи цифровое значение(sptime_id) времени тренировок: 1-утрение, 2-дневные, 3-вечерние")
+            sptime_id = int(input())
+            print("введи Фамилию и инициалы тренера:")
+            teaname = input()
+            print("введи номер телефона спортивного клуба:")
+            phone = int(input())
+            addSport_clubs(name, addr, dist, Sport_id, sptime_id, teaname, phone)
+
+        elif choice_1 == 2:
+            print("выбери номер id спортивного клуба, который нужно удалить:")
+            id = int(input())
+            delSport_clubs(id)
+        elif choice_1 == 3:
+            print("выбери номер id спортивного клуба, который нужно обновить:")
+            id = int(input())
+            print("введи новое название спортивного клуба:")
+            name = input()
+            print("введи новый адрес спортивного клуба:")
+            addr = input()
+            print("введи район местонахождения спортивного клуба:")
+            dist = input()
+            print("введи цифровое значение(номер ID) вида спорта, чтобы совпадал со значением в таблице SPORT")
+            Sport_id = int(input())
+            print("введи цифровое значение(sptime_id) времени тренировок: 1-утрение, 2-дневные, 3-вечерние")
+            sptime_id = int(input())
+            print("введи Фамилию и инициалы тренера:")
+            teaname = input()
+            print("введи номер телефона спортивного клуба:")
+            phone = int(input())
+            updaSport_clubs(name, addr, dist, Sport_id, sptime_id, teaname, phone)
+        elif choice_1==4:
+            Sport_clubs = getSport_clubs()
+            for clubs in Sport_clubs:
+                print(clubs)
+        else:
+            break
+    elif choice == 2:
+        print(input('добавить время тренировок ?, нажми 1'))
+        print(input('удалить время тренировок ?, нажми 2'))
+        print(input('обновить время тренировок ?, нажми 3'))
+        print(input('вывести список времени тренировок?, нажми 4'))
+        choice_2 = int(input())
+        if choice_2==1:
+            print("введи время тренировок:")
+            name=input()
+            addSport_time(name)
+        elif choice_2 == 2:
+            print("выбери номер id времени тренировок, который нужно удалить:")
+            id = int(input())
+            delSport_time(id)
+        elif choice_2 == 3:
+            print("выбери номер id времени тренировок, который нужно обновить:")
+            id = int(input())
+            print("введи новое время для тренировок:")
+            name = input()
+            updaSport_time(id, name)
+        elif choice_2==4:
+            Sp_time = getSport_time()
+            for time in Sp_time:
+                print(time)
+        else:
+            break
+    elif choice == 3:
+        print(input('добавить цену, описание вида спорта ?, нажми 1'))
+        print(input('удалить цену, описание вида спорта ?, нажми 2'))
+        print(input('обновить цену, описание вида спорта ?, нажми 3'))
+        print(input('вывести список ?, нажми 4'))
+        choice_3 = int(input())
+        if choice_3==1:
+            print("введи вид спорта:")
+            name=input()
+            print("введи сумму оплаты за тренировки:")
+            price = int(input())
+            print("введи описание тренировок")
+            description = input()
+            print("введи id времени тренировок")
+            sportime_id = int(input())
+            print("введи id спортивного клуба")
+            sportclub_id = int(input())
+            addSport(name, price, description, sportime_id, sportclub_id)
+        elif choice_3 == 2:
+            print("выбери номер id вида спорта, который нужно удалить:")
+            id = int(input())
+            delSport(id)
+        elif choice_3 == 3:
+            print("выбери номер id вида спорта, который нужно обновить:")
+            id = int(input())
+            print("введи название вида спорта:")
+            name = input()
+            print("введи цену за тренировки:")
+            price = int(input())
+            print("введи описание тренировок:")
+            description = input()
+            print("введи время для тренировок 1-утрение, 2-дневные, 3-вечерние")
+            sportime_id = int(input())
+            print("введи id спортивного клуба")
+            sportclub_id = int(input())
+            updaSport(id, name, price, description, sportime_id, sportclub_id)
+        elif choice_3==4:
+            Sport = getSport()
+            for sport in Sport:
+                print(sport)
+        else:
+            break
+    elif choice == 0:
+        break
+    else:
+        break
