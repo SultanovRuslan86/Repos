@@ -1,0 +1,165 @@
+TELEBOT 
+
+import telebot
+from telebot import types
+
+bot = telebot.TeleBot("5579782644:AAE5Ywfclp7Dmm6vUdg-vDM-wf5R9pB4-Mg")
+
+@bot.message_handler(commands=["start"])
+def start(message):
+    user_markup = telebot.types.ReplyKeyboardMarkup(False)
+    markup = telebot.types.ReplyKeyboardMarkup(False)
+    butt = types.KeyboardButton("Я готов, вперед!")
+    markup.add(butt)
+    # markup = types.InlineKeyboardMarkup()
+    # markup.add(types.InlineKeyboardButton("Я готов, вперед!", url="https://google.com")
+    mess_1 = f'Привет, <b>{message.from_user.first_name}-<u>{message.from_user.last_name}</u></b> самое время для мощной спортивной встряски, осталось выбрать подходящий вид спорта и спортзал. И запомни, изнурительные тренировки не всегда приносят удовольствие, но зато всегда приносят результат!'
+    video = open('media/istockphoto-1095051776-640_adpp_is.mp4', 'rb')
+    bot.send_message(message.chat.id, mess_1, parse_mode='html')
+    bot.send_video(message.chat.id, video)
+    bot.send_message(message.chat.id, 'В этом же меню снизу, ты можешь выбрать вид спорта, адрес спортзала и магазин экипировки. Вперед.......!')
+
+@bot.message_handler(commands=["stop"])
+def Stop(message):
+    hide_markup = telebot.types.ReplyKeyboardRemove()
+    photo = open('media/photo_5323643974239500936_x.jpg', 'rb')
+    bot.send_photo(message.chat.id, photo, 'Прощай, Жаль что ты уходишь! '
+                                      '\nно если передумал, то нажми заново на /help', parse_mode='html', reply_markup=hide_markup)
+
+@bot.message_handler(commands=["help"])
+def help(message):
+    markup = types.ReplyKeyboardMarkup()
+    start = types.KeyboardButton('/start')
+    stop = types.KeyboardButton('/stop')
+    sports = types.KeyboardButton('Виды спорта')
+    clubs = types.KeyboardButton('Спортивные клубы')
+    eccup = types.KeyboardButton('Экипировка и цены на форму')
+    markup.add(start, stop, sports, clubs, eccup)
+    bot.send_message(message.chat.id, 'Выбери следующий шаг!\nМеню команд расположено в нижней, правой стороне экрана, рядом с полем ввода текста.', reply_markup=markup)
+
+@bot.message_handler(content_types=["text"])
+def handle_text(message):
+    if message.text == 'Виды спорта':
+        markup = telebot.types.ReplyKeyboardMarkup(True, False)
+        Sport_1 = types.KeyboardButton('Бокс')
+        Sport_2 = types.KeyboardButton('Кикбоксинг')
+        Sport_3 = types.KeyboardButton('Грепплинг')
+        Sport_4 = types.KeyboardButton('ММА')
+        Sport_5 = types.KeyboardButton('Муай-тай')
+        Sport_6 = types.KeyboardButton('Вольная борьба')
+        Sport_7 = types.KeyboardButton('Боевое самбо')
+        Sport_8 = types.KeyboardButton('Вернуться назад в меню')
+        markup.row(Sport_1, Sport_2)
+        markup.row(Sport_3, Sport_4)
+        markup.row(Sport_5, Sport_6)
+        markup.row(Sport_7, Sport_8)
+        bot.send_message(message.chat.id, 'Выбери вид спорта:', reply_markup=markup)
+    elif message.text == 'Бокс':
+        photo = open('media/photo_5341482012801874803_x.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Бокс</b> - кулачный бой в специальных перчатках по определённым правилам между двумя спортсменами.', parse_mode='html')
+    elif message.text == 'Кикбоксинг':
+        photo = open('media/photo_5341482012801874825_m.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Кикбоксинг</b> - бой с применением ударов руками и ногами в специальных перчатках по определённым правилам между двумя спортсменами.', parse_mode='html')
+    elif message.text == 'Грепплинг':
+        photo = open('media/photo_5341482012801874826_y.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Грепплинг</b> - разновидность единоборств, включает в себя броски и бросковую технику с максимальным акцентом на болевые приемы.', parse_mode='html')
+    elif message.text == 'ММА':
+        photo = open('media/photo_5341482012801874827_x.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>ММА</b> - смешанные единоборства, сочетающие в себе удары руками и ногами, а также элементы борьбы.', parse_mode='html')
+    elif message.text == 'Муай-тай':
+        photo = open('media/photo_5341482012801874828_x.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Муай-тай</b> - вид боевого искусства, зародившийся в Тайланде, сочетающие в себе удары кулаками, локтями, ступнями, голенями, коленями.', parse_mode='html')
+    elif message.text == 'Вольная борьба':
+        photo = open('media/photo_5341482012801874829_m.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Вольная борьба</b> - это вид единоборства, в котором каждый из участников стремится положить другого на лопатки с помощью захватов, бросков, переворотов, подножек и др.', parse_mode='html')
+    elif message.text == 'Боевое самбо':
+        photo = open('media/photo_5341482012801874830_x.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Боевое самбо</b> - это вид единоборства, в котором можно наносить удары ногами и руками, в том числе удержание противника, броски, болевое воздействие, иногда удушение.', parse_mode='html')
+    elif message.text == 'Вернуться назад в меню':
+        bot.send_message(message.chat.id, 'Чтобы вернуться назад в меню введи /help' )
+
+# @bot.message_handler(content_types=["text"])
+# def handle_text(message):
+    elif message.text == 'Спортивные клубы':
+        markup = telebot.types.ReplyKeyboardMarkup(True, False)
+        Sport_с1 = types.KeyboardButton('Клубы по Боксу')
+        Sport_с2 = types.KeyboardButton('Клубы по Кикбоксингу')
+        Sport_с3 = types.KeyboardButton('Клубы по Грепплингу')
+        Sport_с4 = types.KeyboardButton('Клубы по ММА')
+        Sport_с5 = types.KeyboardButton('Клубы по Муай-тай')
+        Sport_с6 = types.KeyboardButton('Клубы по Вольной борьбе')
+        Sport_с7 = types.KeyboardButton('Клубы по Боевому самбо')
+        Sport_c8 = types.KeyboardButton('Вернуться назад в меню')
+        markup.row(Sport_с1, Sport_с2)
+        markup.row(Sport_с3, Sport_с4)
+        markup.row(Sport_с5, Sport_с6)
+        markup.row(Sport_с7, Sport_c8)
+        bot.send_message(message.chat.id, 'Выбери клуб:', reply_markup=markup)
+    elif message.text == 'Клубы по Боксу':
+        photo = open('media/CVQDjqmct1s.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Школа бокса Саян</b> - ул.Гагарина, дом 236б, тренер Естибаев С., телефон 87011112332', parse_mode='html')
+        photo = open('media/original_5aa21ee1a24fd91537337597_5be2be34cdb17.webp', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Школа бокса им.С.Конакбаева</b> - ул. Маркова, 75, тренер Ким В., телефон 87019876545', parse_mode='html')
+        photo = open('media/3753647683_de532aeaae_b.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>K2 boxing club</b> - ул.Ахмедиярова, 25а, тренер Кручин С., телефон 87778765654', parse_mode='html')
+        photo = open('media/original_5787314491dfe47a3e8b4575_584502e586cb7.webp', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>школа бокса Бекзат</b> - ул. Курмангазы, 107, тренер Мерей А., телефон 87779998989', parse_mode='html')
+    elif message.text == 'Клубы по Кикбоксингу':
+        photo = open('media/KONrutqPG7ylx3sM-4Ph51ZjUzhmLAYPQhNyiUNJ7E-qucFbJURRAeF_qs8FaZ7Fat4p3wst.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>СК Classis</b> - ул.Наурызбай батыра, дом 7б, тренер Бикмиев М., телефон 87475433443', parse_mode='html')
+    elif message.text == 'Клубы по Грепплингу':
+        photo = open('media/mma-alliance-malmoe.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>MMA ALLIANCE</b> - ул. Райымбека, 101, тренер Аппазов О., телефон 87013334345', parse_mode='html')
+    elif message.text == 'Клубы по ММА':
+        photo = open('media/Company_30122_YsKOCsiWggEJKkQBBv4LmDmQ.png', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Kod</b> - ул. Райымбека, 101, тренер Аппазов О., телефон 87013334345', parse_mode='html')
+    elif message.text == 'Клубы по Муай-тай':
+        photo = open('media/qLczlx63SZtHEd0wwvrSVOy1yiahhhFB34TL1Exut7s9OWmECwiNJOG7JwjzaQ2Oz3IAyHIFZw1yNIzycprGaxEW.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>ПК Елюхан</b> - пр. Райымбека 174, тренер Аманкулов Ф., телефон 87017776767', parse_mode='html')
+    elif message.text == 'Клубы по Вольной борьбе':
+        photo = open('media/Company_30102_JcxUhYhQvYT5sR89tvkkov0O.png', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>ДЮСШ №13</b> - мкр. Самал-2, 22, тренер Кукиев А., телефон 87008765432', parse_mode='html')
+    elif message.text == 'Клубы по Боевому самбо':
+        photo = open('media/ea03a95aafacd55efb758cd6af20c308.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>FC Result</b> - ул.Торайгырова 39, тренер Харлампиев А., телефон 87007776767', parse_mode='html')
+    elif message.text == 'Экипировка и цены на форму':
+        markup = telebot.types.ReplyKeyboardMarkup(True, False)
+        Sport_f1 = types.KeyboardButton('Экипировка и цены на форму для Бокса')
+        Sport_f2 = types.KeyboardButton('Экипировка и цены на форму для Кикбоксинга')
+        Sport_f3 = types.KeyboardButton('Экипировка и цены на форму для Грепплинга')
+        Sport_f4 = types.KeyboardButton('Экипировка и цены на форму для ММА')
+        Sport_f5 = types.KeyboardButton('Экипировка и цены на форму для Муай-тай')
+        Sport_f6 = types.KeyboardButton('Экипировка и цены на форму для Вольной борьбы')
+        Sport_f7 = types.KeyboardButton('Экипировка и цены на форму для Боевого самбо')
+        Sport_f8 = types.KeyboardButton('Вернуться назад в меню')
+        markup.row(Sport_f1, Sport_f2)
+        markup.row(Sport_f3, Sport_f4)
+        markup.row(Sport_f5, Sport_f6)
+        markup.row(Sport_f7, Sport_f8)
+        bot.send_message(message.chat.id, 'Выбери нужную экипировку:', reply_markup=markup)
+    elif message.text == 'Экипировка и цены на форму для Бокса':
+        photo = open('media/529245c9c7e7fc2dd377c33261f4abc4.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Экипировка для бокса</b> - маг.Спорт ул.Гагарина дом 76б, цена 30 000 тн., телефон 87011112332', parse_mode='html')
+    elif message.text == 'Экипировка и цены на форму для Кикбоксинга':
+        photo = open('media/183086405.png', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Экипировка для кикбоксинга</b> - маг.АРИА ул.Вартана дом 34, цена 45 000 тн., телефон 87011114434', parse_mode='html')
+    elif message.text == 'Экипировка и цены на форму для Грепплинга':
+        photo = open('media/Xx1E2Atx-JM.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Экипировка для Грепплинга</b> - маг.Ультиматум ул.Ломоносова 56, цена 20 000 тн., телефон 87011114434', parse_mode='html')
+    elif message.text == 'Экипировка и цены на форму для ММА':
+        photo = open('media/1978838699-perchatki-dlya-mma-157x157.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Экипировка для ММА</b> - маг.Fight ул.Абая 133, цена 25 000 тн., телефон 87013334343', parse_mode='html')
+    elif message.text == 'Экипировка и цены на форму для Муай-тай':
+        photo = open('media/59725cf1a09cd5b0d01e9a23.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Экипировка для Муай-тай</b> - маг.Fight ул.Абая 133, цена 25 000 тн., телефон 87013334343', parse_mode='html')
+    elif message.text == 'Экипировка и цены на форму для Вольной борьбы':
+        photo = open('media/89616086_w640_h640_triko-bortsovskoe-dlya.webp', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Экипировка для Вольной борьбы</b> - маг.Достык ул.Абая 56, цена 15 000 тн., телефон 87017655444', parse_mode='html')
+    elif message.text == 'Экипировка и цены на форму для Боевого самбо':
+        photo = open('media/5c1e91f593800054de07c594-672x372.jpg', 'rb')
+        bot.send_photo(message.chat.id, photo, f'<b>Экипировка для Боевого самбо</b> - маг.Конкорд ул.Толе би 122, цена 30 000 тн., телефон 87015554554', parse_mode='html')
+    else:
+        bot.send_message(message.chat.id, 'введи /help')
+
+
+bot.polling(none_stop=True)
