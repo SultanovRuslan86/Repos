@@ -1,0 +1,1464 @@
+4-1
+
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>CSS example</title>
+<link href="scratch_2.css" rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+ integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+ crossorigin="anonymous"/>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://use.fontawesome.com/c0d95a4d08.js"></script>
+    <head style="background-color: white;">
+        <div class="First">
+            <div class="First_1">
+                <div class="VK">
+                    <a href="#">
+                         <i class="fab fa-vk"></i>
+                    </a>
+                </div>
+                <div class="First-1">
+                    <p><b>ВКОНТАКТЕ</b></p>
+                </div>
+                <div class="Search">
+                    <div class="Search-1">
+                        <form action="/search/" target="_blank">
+                          <input type="search" name="text" placeholder="Поиск" style="
+                            padding: 5px 2px 5px 25px; border: 0px solid gray;
+                            background: url('http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s25/search.png') no-repeat scroll 0 50%;
+                            ">
+                        </form>
+                    </div>
+                </div>
+                <div class="into">
+                    <p><b>Roy</b></p>
+                    <span class="circle-image-head">
+                        <img src="https://i.discogs.com/P-RoM3DLxK95fp2zjwANOMCcazDP5xgnCbpgAIPKzqE/rs:fit/g:sm/q:90/h:600/w:447/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1MTA1/MC0xMzA5MDI2ODQ3/LmpwZWc.jpeg" width="20px" height="20"/>
+                    </span>
+                    <a href="#">
+                         <i class="fa fa-angle-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </head>
+
+    <body style="background-color: #f2f3f4;">
+        <div class="Second-1">
+            <div class="Second">
+                <div class="ID_1">
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Моя страница</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Новости</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Мессенджер</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-user-plus" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Друзья</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Сообщества</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-picture-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Фотографии</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-music" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Музыка</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Видео</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Клипы</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-gamepad" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Игры</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line1">
+                        <hr></hr>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-building" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Мини-приложения</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-rub" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>VK Pay</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line1">
+                        <hr></hr>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Маркет</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Закладки</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-file-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Файлы</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-cubes" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div_u">
+                            <p><a href="https://vk.com/"> <strong>Управление</strong></a></p>
+                        </div>
+                    </div>
+                    <div class="line1">
+                        <hr></hr>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>JAVA EE Group</strong></a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block-2">
+                    <div class="Block-2-1">
+                        <div class="photos__img">
+                            <img src="https://i.discogs.com/P-RoM3DLxK95fp2zjwANOMCcazDP5xgnCbpgAIPKzqE/rs:fit/g:sm/q:90/h:600/w:447/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1MTA1/MC0xMzA5MDI2ODQ3/LmpwZWc.jpeg" width="250px" height="245">
+                        </div>
+                        <div class="Butto">
+                            <button class="Butt"><a href="https://vk.com/">Редактировать</a></button>
+                        </div>
+                        <div class="stat">
+                            <div>
+                                <a href="#">
+                                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="line_Div">
+                                <p><a href="https://vk.com/">Статистика страницы</a></p>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <div>
+                                <a href="#">
+                                    <i class="fa fa-undo" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="line_Div">
+                                <p><a href="https://vk.com/">  Воспоминания</a></p>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <div>
+                                <a href="#">
+                                    <i class="fa fa-exchange" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="line_Div">
+                                <p><a href="https://vk.com/">Денежные переводы</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Contacts">
+                        <div class="home">
+                            <a href="#">
+                                <i type="" class="fa fa-home fa-lg" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/"> <strong>Укажите ваши контакты</strong></a></p>
+                        </div>
+                        <div class="cross">
+                            <a href="#">
+                                <i type="" class="fa fa-times" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="Friends">
+                        <div class="Friends-1line">
+                            <div class="Friends-1line-1">
+                                <p><strong>Друзья</strong></p>
+                            </div>
+                            <div class="Friends-1line-2">
+                                <p>1 484</p>
+                            </div>
+                            <div class="Friends-1line-3">
+                                <p>обновления</p>
+                            </div>
+                        </div>
+                        <div class="Friends-all-1">
+                            <div class="Tyson">
+                                <span class="circle-image">
+                                    <a href="https://vk.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Mike_Tyson_2019_by_Glenn_Francis.jpg"/></a>
+                                </span>
+                                <p>Mike</p>
+                            </div>
+                            <div class="Natasha">
+                                <span class="circle-image">
+                                    <a href="https://vk.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/7/79/RagozinaNatalia6.JPG"/></a>
+                                </span>
+                                <p>Natasha</p>
+                            </div>
+                            <div class="Gennady">
+                                <span class="circle-image">
+                                    <a href="https://vk.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Gennady_Golovkin_%28KAZ%29_2017.png"/></a>
+                                </span>
+                                <p>Gennady</p>
+                            </div>
+                        </div>
+                        <div class="Friends-all-2">
+                            <div class="Rais">
+                                <span class="circle-image">
+                                    <a href="https://vk.com/"><img src="https://webnews.bg/uploads/images/33/9433/579433/768x432.jpg?_=1656586828"/></a>
+                                </span>
+                                <p>Rais</p>
+                            </div>
+                            <div class="Manny">
+                                <span class="circle-image">
+                                    <a href="https://vk.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Sarangani_Lone_District_Representative_Manny_Pacquiao_%28cropped%29.jpg"/></a>
+                                </span>
+                                <p>Manny</p>
+                            </div>
+                            <div class="Vitaly">
+                                <span class="circle-image">
+                                    <a href="https://vk.com/"><img src="https://thumbor.my.ua/1WrNepzvb5Elr4S3ci1p73pFT_Y=/192x0/smart/s3.eu-central-1.amazonaws.com/media.my.ua/admin/ff589e68-8b1b-44e1-b805-b6861250239c.jpeg"/></a>
+                                </span>
+                                <p>Vitaliy</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <hr></hr>
+                            </div>
+                        </div>
+                        <div class="Text">
+                            <div class="Text-1">
+                                <p><strong>Друзья онлайн</strong></p>
+                            </div>
+                            <div class="Text-2">
+                                <p>42</p>
+                            </div>
+                        </div>
+                        <div class="Friends-all-2">
+                            <div class="Saul">
+                                <span class="circle-image">
+                                    <a href="https://vk.com/"><img src="https://superkarate.ru/uploads/posts/2020-11/1605710442_7048d534bbbc43a6327447344e749c22.jpeg"/></a>
+                                </span>
+                                <p>Saul</p>
+                            </div>
+                            <div class="Bivol">
+                                <span class="circle-image">
+                                    <a href="https://vk.com/"><img src="https://s5o.ru/storage/simple/ru/edt/26/52/23/90/rueaddad83897.jpg"/></a>
+                                </span>
+                                <p>Dmitriy</p>
+                            </div>
+                            <div class="Janibek">
+                                <span class="circle-image">
+                                    <a href="https://vk.com/"><img src="https://mnews.kz/assets/images/post_items/e5aea51dfebb0b5b377ef514ec1d7554.jpg"/></a>
+                                </span>
+                                <p>Janibek</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-3">
+                    <div class="stroka-name">
+                         <div class="headname">
+                             <p><a href="https://vk.com/royjjr"><strong>Roy Levesta Jones Jr.</strong></a></p>
+                             <span class="circle-headname">
+                                <img src="https://img.freepik.com/premium-photo/usa-or-american-flag-background_46250-2171.jpg?w=1480"/>
+                             </span>
+                             <div class="online">
+                                <p>online</p>
+                             </div>
+                         </div>
+                         <div class="wwwbitlab">
+                             <p>www.bitlab.kz<p>
+                         </div>
+                         <div class="line-3blok">
+                             <hr></hr>
+                         </div>
+                         <div class="Datas">
+                             <div class="Datas-first">
+                                <p>День рождения:</p>
+                             </div>
+                             <div class="Datas-second">
+                                <p>16 января 1969г.</p>
+                             </div>
+                         </div>
+                         <div class="Datas">
+                             <div class="Datas-first">
+                                <p>Город:</p>
+                             </div>
+                             <div class="Datas-city">
+                                <p>Пенсакола, Флорида</p>
+                             </div>
+                         </div>
+                         <div class="Datas">
+                             <div class="Datas-first">
+                                <p>Семейное положение:</p>
+                             </div>
+                             <div class="Marital-status">
+                                <p>Женат</p>
+                             </div>
+                         </div>
+                         <div class="Datas">
+                             <div class="Datas-first">
+                                <p>Место работы:</p>
+                             </div>
+                             <div class="Work-status">
+                                <p>Тренер</p>
+                             </div>
+                         </div>
+                         <div class="Datas">
+                             <div class="Datas-first">
+                                <p>Сайт:</p>
+                             </div>
+                             <div class="Web-site">
+                                <p><a href="https://www.rootsoffight.com/pages/roy-jones-jr">royjonesjr.com</a></p>
+                             </div>
+                         </div> <br>
+                         <div class="Datas-1">
+                             <div class="Show-info">
+                                <p><a href="https://www.rootsoffight.com/pages/roy-jones-jr">Показать подробную информацию</a></p>
+                             </div>
+                         </div>
+                         <div class="line-3blok">
+                             <hr></hr>
+                         </div>
+                         <div class="inform">
+                             <div class="inform-datas">
+                                 <p class="number"><b>1484</b></p>
+                                 <p class="inform-word">друга</p>
+                             </div>
+                             <div class="inform-datas">
+                                 <p class="number"><b>271</b></p>
+                                 <p class="inform-word">подписчик</p>
+                             </div>
+                             <div class="inform-datas">
+                                 <p class="number"><b>97</b></p>
+                                 <p class="inform-word">фотографий</p>
+                             </div>
+                             <div class="inform-datas">
+                                 <p class="number"><b>1380</b></p>
+                                 <p class="inform-word">видеозаписей</p>
+                             </div>
+                             <div class="inform-datas">
+                                 <p class="number"><b>6</b></p>
+                                 <p class="inform-word">подарков</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="Photos">
+                         <div class="Photos-head">
+                             <div class="Photo-word-1">
+                                 <p><a href="https://vk.com/"> Мои фотографии </a></p>
+                             </div>
+                             <div class="Photo-word-2">
+                                 <p>97</p>
+                             </div>
+                             <div class="Photo-word-3">
+                                 <p><a href="https://vk.com/">показать на карте</a></p>
+                             </div>
+                         </div>
+                         <div class="Photos-body">
+                             <div class="photo-1">
+                                 <a href="https://www.sports.kz/upload/2020-05/500_5eba5cb6007e3.jpg">
+                                    <img src="https://www.sports.kz/upload/2020-05/500_5eba5cb6007e3.jpg"/>
+                                 </a>
+                             </div>
+                             <div class="photo-1">
+                                 <a href="http://extrimpower.ru/images/images/biographies_boxers/bio_roy_jones_jr.jpg">
+                                    <img src="http://extrimpower.ru/images/images/biographies_boxers/bio_roy_jones_jr.jpg"/>
+                                 </a>
+                             </div>
+                             <div class="photo-1">
+                                 <a href="https://s5o.ru/storage/simple/ru/edt/4d/7c/c5/43/rue27cc486ced.jpg">
+                                    <img src="https://s5o.ru/storage/simple/ru/edt/4d/7c/c5/43/rue27cc486ced.jpg"/>
+                                 </a>
+                             </div>
+                             <div class="photo-1">
+                                 <a href="https://cdnstatic.rg.ru/crop280x186/uploads/images/122/25/49/850.jpg">
+                                    <img src="https://cdnstatic.rg.ru/crop280x186/uploads/images/122/25/49/850.jpg"/>
+                                 </a>
+                             </div>
+                         </div> <br>
+                     </div>
+                     <div class="News">
+                         <div>
+                             <span class="circle-image-news">
+                                <a href="https://vk.com/"><img src="https://i.discogs.com/P-RoM3DLxK95fp2zjwANOMCcazDP5xgnCbpgAIPKzqE/rs:fit/g:sm/q:90/h:600/w:447/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1MTA1/MC0xMzA5MDI2ODQ3/LmpwZWc.jpeg" width="17px" height="17"/></a>
+                             </span>
+                         </div>
+                         <div class="News-word">
+                             <p>Что у Вас нового ?</p>
+                         </div>
+                         <div class="News-icons">
+                             <div class="News-icons-1">
+                                 <a href="#">
+                                     <i class="fa fa-camera" aria-hidden="true"></i>
+                                 </a>
+                             </div>
+                             <div class="News-icons-2">
+                                 <a href="#">
+                                     <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                                 </a>
+                             </div>
+                             <div class="News-icons-2">
+                                 <a href="#">
+                                     <i class="fa fa-music" aria-hidden="true"></i>
+                                 </a>
+                             </div>
+                             <div class="News-icons-2">
+                                 <a href="#">
+                                     <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                 </a>
+                             </div>
+                             <div class="News-icons-2">
+                                 <a href="#">
+                                     <i class="fa fa-address-card" aria-hidden="true"></i>
+                                 </a>
+                             </div>
+                             <div class="News-icons-2">
+                                 <a href="#">
+                                     <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                                 </a>
+                             </div>
+                             <div class="News-icons-2">
+                                 <a href="#">
+                                     <i class="fa fa-lock" aria-hidden="true"></i>
+                                 </a>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="Notes">
+                        <div class="Notes-line">
+                            <div class="Notes-line-1">
+                                <p><a href="https://vk.com/">Все записи</a></p>
+                            </div>
+                            <div class="Notes-line-2">
+                                <p><a href="https://vk.com/">Мои записи</a></p>
+                            </div>
+                            <div class="Notes-line-3">
+                                <p><a href="https://vk.com/">Архив записей</a></p>
+                            </div>
+                            <div class="Notes-line-icon">
+                                <a href="#">
+                                     <i class="fa fa-search" aria-hidden="true"></i>
+                                 </a>
+                            </div>
+                        </div>
+                         <div class="line-end">
+                             <hr></hr>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+Css 
+
+
+.First {
+    background-color: white;
+    color: black;
+    font-family:tahoma;
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.First_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    border-radius: 5px;
+}
+
+.VK a i {
+    background-color: #1e90ff;
+    color: white;
+    width: 50%;
+    border: 0px solid blue;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.VK {
+    background-color: white;
+    width: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.First-1 {
+    width: 10%;
+}
+
+.First-1 p {
+    width: 40%;
+    height: 22px;
+    font-family:arial;
+    font-size: 20px;
+    margin-left: 1px
+}
+
+.Search {
+    width: 15.5%;
+    border: 0px solid green;
+    margin-left: 40px
+}
+
+.Search-1 {
+    background-color: #f2f3f4;
+    border-radius: 10px;
+    padding: 5px 5px;
+    width: 150%;
+}
+
+.into {
+    border: 0px solid blue;
+    margin-left: 120px;
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.into p {
+    font-family:Arial;
+    font-size: 16px;
+    padding-top: 5px
+    color:black;
+}
+
+.into a i {
+    justify-content: center;
+    align-items: center;
+    color:#777777;
+    padding: 15px 10px;
+}
+
+.circle-image-head img {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.circle-image-head {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.Second-1 {
+    background-color: #f2f3f4;
+    display:flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border: 0px solid blue;
+}
+
+.Second {
+    font-family:Arial;
+    display: flex;
+    width: 75%;
+    border: 0px solid green;
+}
+
+.ID_1 {
+    width: 16%;
+    border: 0px solid red;
+    margin-top: 18px;
+}
+
+.ID_1 div {
+    border: 0px solid gray;
+}
+
+.line_1 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-right: 0px;
+    font-size: 10px;
+}
+.line_1 i {
+    color: #1e90ff;
+    width: 13%;
+    border: 0px solid #1e90ff;
+    padding: 8px 5px;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.line_Div {
+    text-decoration: none;
+    border: 0px solid blue;
+    margin-left: 5px;
+}
+.line_Div_u {
+    text-decoration: none;
+    border: 0px solid blue;
+    margin-left: 0px;
+}
+.line_Div_u p a {
+    color:#777777;
+    text-decoration: none;
+    font-family: Arial;
+    margin-left: 1px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    padding: 20px 5px;
+}
+
+.line_Div p a {
+    color:#777777;
+    text-decoration: none;
+    font-family: Arial;
+    margin-left: 3px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    padding: 20px 5px;
+}
+
+.line1 hr {
+    border-bottom: 0px solid gray;
+    width: 70%;
+    margin-left: 45px;
+}
+
+.block-2 {
+    width: 24.5%;
+    border: 0px solid blue;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Block-2-1 {
+    border: 0px solid blue;
+    background-color:white;
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+}
+
+.photos__img {
+    border: 0px solid gray;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 13px;
+}
+
+.Butto button {
+    border-radius: 5px;
+    border: 0px solid gray;
+    background-color: #dcdcdc;
+    width: 90%;
+    margin-left: 13px;
+    padding-top: 4px;
+    padding-right: 2px;
+    padding-bottom: 4px;
+    padding-left: 13px;
+}
+
+.Butto button a {
+    font-size: 15px;
+    text-decoration: none;
+    color:#777777;
+    font-family: Arial;
+}
+
+.stat {
+    width:100%;
+    height: 9%;
+    display: flex;
+    flex-direction:row;
+    border: 0px solid blue;
+}
+
+.stat a i {
+    color: gray;
+    width: 8%;
+    border: 0px solid #1e90ff;
+    padding: 15px 3px;
+    font-size: 18px;
+    margin-left: 13px;
+}
+.cross {
+    margin-left: 30px;
+}
+
+.cross a i {
+    color: gray;
+}
+
+.Contacts {
+    border: 0px solid blue;
+    background-color:white;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:15px;
+}
+
+.home a i {
+    color: #1e90ff;
+    margin-left: 10px;
+}
+
+.Friends {
+    border: 0px solid green;
+    background-color:white;
+    width: 99%;
+    height: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.Friends-1line {
+    border: 0px solid blue;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    height: 8%;
+}
+
+.Friends-1line-1 p {
+    font-family:Arial;
+    color:#777777;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.Friends-1line-2 p {
+    text-align: center;
+    font-family:Arial;
+    color:#777777;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.Friends-1line-3 p {
+    border: 0px solid blue;
+    font-family:Arial;
+    color:#777777;
+    margin-left: 74px;
+    font-size: 13px;
+}
+
+.Friends-all-1 {
+    border: 0px solid blue;
+    display: flex;
+    margin-top: 5px;
+    height: 19.2%;
+}
+
+.circle-image img {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.circle-image {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+
+.Friends-all-2 {
+    border: 0px solid blue;
+    display: flex;
+    margin-top: 5px;
+    height: 20%;
+}
+
+.Tyson {
+    margin-left: 8px;
+}
+.Tyson p {
+    font-family:Arial;
+    color: #4a6182;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.Natasha {
+    margin-left: 14px;
+}
+.Natasha p {
+    font-family:Arial;
+    color:#4a6182;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.Gennady {
+    margin-left: 14px;
+}
+.Gennady p {
+    font-family:Arial;
+    color:#4a6182;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.Rais {
+    margin-left: 8px;
+}
+.Rais p {
+    font-family:Arial;
+    color:#4a6182;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+.Manny {
+    margin-left: 14px;
+}
+.Manny p {
+    font-family:Arial;
+    color:#4a6182;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+.Vitaly {
+    margin-left: 14px;
+}
+.Vitaly p {
+    font-family:Arial;
+    color:#4a6182;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.Text {
+    border: 0px solid blue;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    height: 10%;
+    margin-top: 0px;
+}
+.Text-1 p {
+    font-family:Arial;
+    color:#777777;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.Text-2 p {
+    text-align: center;
+    font-family:Arial;
+    color:#777777;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.Saul {
+    margin-left: 8px;
+}
+.Saul p {
+    font-family:Arial;
+    color:#4a6182;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.Bivol {
+    margin-left: 14px;
+}
+.Bivol p {
+    font-family:Arial;
+    color:#4a6182;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.Janibek {
+    margin-left: 14px;
+}
+.Janibek p {
+    font-family:Arial;
+    color:#4a6182;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.block-3 {
+    width: 57%;
+    border: 0px solid gray;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.stroka-name {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid blue;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 8px;
+    width: 100%;
+}
+.headname {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 0px solid blue;
+    height: 35px;
+}
+.headname p {
+    font-family:Arial;
+    font-size: 13px;
+    color:black;
+    margin-left: 10px;
+}
+.headname p a {
+    font-family:Arial;
+    font-size: 19px;
+    color:black;
+    text-decoration: none;
+}
+.circle-headname {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 24px;
+    height: 24px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.circle-headname img {
+    width: 30px;
+    height: 30px;
+}
+
+.wwwbitlab {
+    margin-left: 10px;
+    border: 0px solid green;
+    height: 25px;
+    margin-top: 1px;
+}
+.wwwbitlab p {
+    font-family:Arial;
+    color:black;
+    margin-top: 1px;
+    font-size: 13px;
+}
+
+.online {
+    border: 0px solid green;
+    margin-left: 315px;
+    margin-top: 1px;
+}
+online p {
+    font-family:Arial;
+    color:#777777;
+}
+
+.line-3blok hr {
+    border-bottom: 0px solid gray;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.Datas {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+    border: 0px solid green;
+    height: 29px;
+    width: 70%;
+}
+
+.Datas-first p {
+    font-family:Arial;
+    color:#777777;
+    font-size: 14px;
+}
+.Datas-second {
+    margin-left: 100px;
+    align-items: left;
+    border: 0px solid green;
+}
+.Datas-second p {
+    color:#4a6182;
+    font-size: 14px;
+}
+
+.Datas-city {
+    margin-left: 165px;
+}
+.Datas-city p {
+    color:#4a6182;
+    font-size: 14px;
+}
+
+.Marital-status {
+    margin-left: 60px;
+}
+.Marital-status p {
+    color:#4a6182;
+    font-size: 14px;
+}
+
+.Work-status {
+    margin-left: 109px;
+}
+.Work-status p {
+    color:#4a6182;
+    font-size: 14px;
+}
+.Web-site {
+    margin-left: 170px;
+}
+
+.Web-site p a {
+    color:#4a6182;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.Show-info {
+    border: 0px solid green;
+    border-radius: 5px;
+    width: 97%;
+    height:76%;
+    margin-left: 8px;
+}
+
+.Show-info p a {
+    margin-left: 206px;
+    margin-top: 15px;
+    color:#4a6182;
+    font-size: 14px;
+    text-decoration: none;
+}
+.Show-info:hover {
+    background:#c8c8c8;
+}
+
+.inform {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    margin-left: 25px;
+    border: 0px solid green;
+    width: 85%;
+    height:60%;
+}
+.inform-datas {
+    width: 18%;
+    text-align: center
+}
+.number {
+    font-size: 16px;
+    color:#4a6182;
+    text-align: center
+    padding-top:30px;
+}
+.inform-word {
+    font-size: 14px;
+    color:#4a6182;
+}
+
+.Photos {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid blue;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Photos-head {
+    display: flex;
+    flex-direction: row;
+}
+
+.Photo-word-1 p a{
+    color:black;
+    font-family: Arial;
+    margin-left: 8px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.Photo-word-2 p {
+    font-family: Arial;
+    font-size: 13px;
+    color:#777777;
+    text-decoration: none;
+    margin-top: 19px;
+    margin-left: 10px;
+}
+
+.Photo-word-2 p a {
+    font-family: Arial;
+    font-size: 13px;
+    color:#777777;
+    text-decoration: none;
+}
+
+.Photo-word-3 p {
+    font-family: Arial;
+    font-size: 13px;
+    color:#777777;
+    text-decoration: none;
+    margin-top: 19px;
+    margin-left: 365px;
+}
+.Photo-word-3 p a {
+    font-family: Arial;
+    font-size: 13px;
+    color:#777777;
+    text-decoration: none;
+}
+.Photos-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.photo-1 a img {
+    width: 135px;
+    height: 135px;
+}
+
+.News {
+    display: flex;
+    flex-direction: row;
+    border: 0px solid blue;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.circle-image-news a img {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.circle-image-news {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 38px;
+  height: 38px;
+  margin-left: 8px;
+  margin-top: 3px;
+}
+
+.News-word {
+    margin-left: 13px;
+}
+.News-word p {
+    font-family: Arial;
+    font-size: 13px;
+    color:#777777;
+}
+
+.News-icons {
+    margin-left: 245px;
+    display: flex;
+    flex-direction: row;
+    margin-top:7px;
+}
+
+.News-icons-1 a i {
+    color:#777777;
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 18px;
+    margin-top:7px;
+}
+.News-icons-2 a i {
+    color:#777777;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
+    margin-top:7px;
+}
+
+.Notes {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid blue;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 250px;
+}
+
+.Notes-line {
+    display: flex;
+    border: 0px solid blue;
+    flex-direction: row;
+    height: 45px;
+}
+.Notes-line-1 {
+    border: 0px solid blue;
+    text-align:center;
+}
+
+.Notes-line-1 p a {
+    color:#777777;
+    text-decoration: none;
+    margin-left: 8px;
+    font-size: 14px;
+    display:inline-block;
+    line-height: 35px;
+    margin-top:-75px;
+}
+.Notes-line-1 p a:after {
+    display: block;
+    content: "";
+    height: 2px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #1e90ff; /*цвет фона элемента*/
+    transition: width 0s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+}
+.Notes-line-1 p a:hover:after,
+.Notes-line-1 p a:focus:after {
+    width: 100%;
+}
+.Notes-line-1:hover p a {
+    color: black;
+}
+
+.Notes-line-2 p a {
+    color:#777777;
+    text-decoration: none;
+    margin-left: 12px;
+    font-size: 14px;
+    margin-top:7px;
+    display:inline-block;
+    line-height: 35px;
+    margin-top:-75px;
+}
+.Notes-line-2 p a:after {
+    display: block;
+    content: "";
+    height: 2px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #1e90ff; /*цвет фона элемента*/
+    transition: width 0s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+}
+.Notes-line-2 p a:hover:after,
+.Notes-line-2 p a:focus:after {
+    width: 100%;
+}
+.Notes-line-2:hover p a {
+    color: black;
+}
+
+.Notes-line-3 p a {
+    color:#777777;
+    text-decoration: none;
+    margin-left: 12px;
+    font-size: 14px;
+    margin-top:7px;
+    display:inline-block;
+    line-height: 35px;
+    margin-top:-75px;
+}
+
+.Notes-line-3 p a:after {
+    display: block;
+    content: "";
+    height: 2px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #1e90ff; /*цвет фона элемента*/
+    transition: width 0s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+}
+
+.Notes-line-3 p a:hover:after,
+.Notes-line-3 p a:focus:after {
+    width: 100%;
+}
+
+.Notes-line-3:hover p a {
+    color: black;
+}
+
+.Notes-line-icon {
+    margin-left: 310px;
+}
+.Notes-line-icon a i {
+    color:#777777;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
+    margin-top:16px;
+}
+
+.line-end hr {
+    border-bottom: 0px solid gray;
+    width: 100%;
+    margin-top: 0px;
+}
+
+
