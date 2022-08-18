@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>CSS example</title>
+<link href="scratch_2.css" rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+ integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+ crossorigin="anonymous"/>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://use.fontawesome.com/c0d95a4d08.js"></script>
+    <head style="background-color: white;">
+        <div class="First">
+            <div class="First_1">
+                <div class="VK">
+                    <a href="#">
+                         <i class="fab fa-vk"></i>
+                    </a>
+                </div>
+                <div class="First-1">
+                    <p><b>ВКОНТАКТЕ</b></p>
+                </div>
+                <div class="Search">
+                    <div class="Search-1">
+                        <form action="/search/" target="_blank">
+                          <input type="search" name="text" placeholder="Поиск" style="
+                            padding: 5px 2px 5px 25px; border: 0px solid gray;
+                            background: url('http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s25/search.png') no-repeat scroll 0 50%;
+                            ">
+                        </form>
+                    </div>
+                </div>
+                <div class="into">
+                    <p><b>Roy</b></p>
+                    <span class="circle-image-head">
+                        <img src="https://i.discogs.com/P-RoM3DLxK95fp2zjwANOMCcazDP5xgnCbpgAIPKzqE/rs:fit/g:sm/q:90/h:600/w:447/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg1MTA1/MC0xMzA5MDI2ODQ3/LmpwZWc.jpeg" width="20px" height="20"/>
+                    </span>
+                    <a href="#">
+                         <i class="fa fa-angle-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </head>
+
+    <body style="background-color: #f2f3f4;">
+        <div class="Second-1">
+            <div class="Second">
+                <div class="corner">
+                    <div class="corner-icon">
+                        <a href="#">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="corner-back">
+                        <a href="https://vk.com/"><b>Назад</b></a>
+                    </div>
+                </div>
+
+                <div class="ID_1">
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Моя страница</a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-window-maximize" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Новости</a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Мессенджер</a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-user-plus" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Друзья</a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Сообщества</a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-picture-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Фотографии</a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-music" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Музыка</a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Видео</a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Клипы</a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-gamepad" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Игры</a></p>
+                        </div>
+                    </div>
+                    <div class="line1">
+                        <hr></hr>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-building" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Мини-приложения</a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-rub" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">VK Pay</a></p>
+                        </div>
+                    </div>
+                    <div class="line1">
+                        <hr></hr>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Маркет</a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Закладки</a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-file-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">Файлы</a></p>
+                        </div>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-cubes" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div_u">
+                            <p><a href="https://vk.com/">Управление</a></p>
+                        </div>
+                    </div>
+                    <div class="line1">
+                        <hr></hr>
+                    </div>
+                    <div class="line_1">
+                        <div>
+                            <a href="#">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="line_Div">
+                            <p><a href="https://vk.com/">JAVA EE Group</a></p>
+                        </div>
+                    </div>
+                    <div class="line-full">
+                            <hr></hr>
+                    </div>
+                    <div class="text_fin-1">
+                            <div class="text_fin_1">
+                                <p><a href="https://vk.com/">Блог</a></p>
+                            </div>
+                            <div class="text_fin_2">
+                                <p><a href="https://vk.com/">Разработчикам</a></p>
+                            </div>
+                    </div>
+                    <div class="text_fin-2">
+                            <div class="text_fin_1">
+                                <p><a href="https://vk.com/">Для бизнеса</a></p>
+                            </div>
+                            <div class="text_fin_2">
+                                <p><a href="https://vk.com/">Ещё</a></p>
+                            </div>
+                            <div class="text_fin_2_2">
+                                <a href="#">
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                     </div>
+                </div>
+
+                <div class="block-2">
+                     <div class="Notes">
+                         <div class="Notes-line">
+                             <div class="Notes-line-1">
+                                 <p><a href="https://vk.com/">Все друзья  1483</a></p>
+                             </div>
+                             <div class="Notes-line-2">
+                                 <p><a href="https://vk.com/">Друзья онлайн  26</a></p>
+                             </div>
+                             <div class="Notes-line-button">
+                                 <button>
+                                     <a href="#"><b>Найти друзей</b></a>
+                                 </button>
+                             </div>
+                         </div>
+                      <div class="line-end">
+                          <hr></hr>
+                      </div>
+                      <div class="Search-friends">
+                         <div>
+                            <a href="#">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                         </div>
+                         <div class="input">
+                                 <input type="text" placeholder = "Поиск друзей">
+                         </div>
+                         <div class="parametr">
+                                <a href="#">Параметры</a>
+                         </div>
+                         <div class="angle">
+                                 <a href="#">
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </a>
+                         </div>
+                      </div>
+
+                      <div class="line-full">
+                             <hr></hr>
+                      </div>
+
+                      <div class="friend-1">
+                            <div>
+                                <span class="friend-1-image">
+                                    <a href="https://vk.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Mike_Tyson_2019_by_Glenn_Francis.jpg"/></a>
+                                </span>
+                            </div>
+                           <div class="friend-name">
+                                <div class="friend-datas">
+                                        <a href="https://vk.com/"><b>Mike Tyson</b></a>
+                                </div>
+                                <div class="friend-datas-1">
+                                        <a href="https://vk.com/">KIMEP</a>
+                                </div>
+                                <div class="friend-datas-2">
+                                        <a href="https://vk.com/">Написать сообщение</a>
+                                </div>
+                            </div>
+                            <div class="friends-icon-1">
+                                    <a href="#">
+                                        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                    </a>
+                            </div>
+                      </div>
+
+                      <div class="line-short">
+                             <hr></hr>
+                      </div>
+
+                      <div class="friend-1">
+                            <div>
+                                <span class="friend-1-image">
+                                    <a href="https://vk.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/7/79/RagozinaNatalia6.JPG"/></a>
+                                </span>
+                            </div>
+                            <div class="friend-name">
+                                <div class="friend-datas">
+                                    <a href="https://vk.com/"><b>Natasha Rogozina</b></a>
+                                </div>
+                                <div class="friend-datas-1">
+                                    <a href="https://vk.com/">UIB</a>
+                                </div>
+                                <div class="friend-datas-2">
+                                    <a href="https://vk.com/">Написать сообщение</a>
+                                    <i class="fa fa-circle" aria-hidden="true"></i>
+                                    <p><a href="https://vk.com/">Позвонить</a></p>
+                                </div>
+                            </div>
+                            <div class="friends-icon-2">
+                                <a href="#">
+                                    <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                      </div>
+
+                      <div class="line-short">
+                             <hr></hr>
+                      </div>
+
+                      <div class="friend-1">
+                          <div>
+                                <span class="friend-1-image">
+                                    <a href="https://vk.com/"><i class="fa fa-camera fa-3x" aria-hidden="true"></i></a>
+                                </span>
+                          </div>
+                          <div class="friend-name">
+                                <div class="friend-datas">
+                                    <a href="https://vk.com/"><b>Gennady Golovkin</b></a>
+                                </div>
+                                <div class="friend-datas-1">
+                                    <a href="https://vk.com/">KarGU (КарГУ им.Бекетова)</a>
+                                </div>
+                                <div class="friend-datas-2">
+                                    <a href="https://vk.com/">Написать сообщение</a>
+                                    <i class="fa fa-circle" aria-hidden="true"></i>
+                                    <p><a href="https://vk.com/">Позвонить</a></p>
+                                </div>
+                           </div>
+                           <div class="friends-icon-3">
+                                <a href="#">
+                                    <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                </a>
+                           </div>
+                      </div>
+
+                      <div class="line-short">
+                             <hr></hr>
+                      </div>
+
+                      <div class="friend-1">
+                            <div>
+                                <span class="friend-1-image">
+                                    <a href="https://vk.com/"><img src="https://mnews.kz/assets/images/post_items/e5aea51dfebb0b5b377ef514ec1d7554.jpg"/></a>
+                                </span>
+                            </div>
+                            <div class="friend-name">
+                                <div class="friend-datas">
+                                    <a href="https://vk.com/"><b>Janibek Alimhanuli</b></a>
+                                </div>
+                                <div class="friend-datas-1">
+                                    <a href="https://vk.com/">KazGU</a>
+                                </div>
+                                <div class="friend-datas-2">
+                                    <a href="https://vk.com/">Написать сообщение</a>
+                                    <i class="fa fa-circle" aria-hidden="true"></i>
+                                    <p><a href="https://vk.com/">Позвонить</a></p>
+                                </div>
+                            </div>
+                            <div class="friends-icon-4">
+                                <a href="#">
+                                    <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                      </div>
+                      <div class="line-short">
+                             <hr></hr>
+                      </div>
+
+                      <div class="friend-1">
+                            <div>
+                                <span class="friend-1-image">
+                                    <a href="https://vk.com/"><img src="https://superkarate.ru/uploads/posts/2020-11/1605710442_7048d534bbbc43a6327447344e749c22.jpeg"/></a>
+                                </span>
+                            </div>
+                            <div class="friend-name">
+                                <div class="friend-datas">
+                                    <a href="https://vk.com/"><b>Saul Alvarez</b></a>
+                                </div>
+                                <div class="friend-datas-1">
+                                    <a href="https://vk.com/">MUIT(IITU)</a>
+                                </div>
+                                <div class="friend-datas-2">
+                                    <a href="https://vk.com/">Написать сообщение</a>
+                                </div>
+                            </div>
+                            <div class="friends-icon-5">
+                                <a href="#">
+                                    <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                      </div>
+
+                      <div class="line-short">
+                             <hr></hr>
+                      </div>
+
+                      <div class="friend-1">
+                            <div>
+                                <span class="friend-1-image">
+                                    <a href="https://vk.com/"><img src="https://s5o.ru/storage/simple/ru/edt/26/52/23/90/rueaddad83897.jpg"/></a>
+                                </span>
+                            </div>
+                            <div class="friend-name">
+                                <div class="friend-datas">
+                                    <a href="https://vk.com/"><b>Dmitriy Bivol</b></a>
+                                </div>
+                                <div class="friend-datas-2">
+                                    <a href="https://vk.com/">Написать сообщение</a>
+                                    <i class="fa fa-circle" aria-hidden="true"></i>
+                                    <p><a href="https://vk.com/">Позвонить</a></p>
+                                </div>
+                            </div>
+                            <div class="friends-icon-6">
+                                <a href="#">
+                                    <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                      </div>
+                      <div class="line-short">
+                             <hr></hr>
+                      </div>
+                   </div>
+                </div>
+
+
+                <div class="block-3">
+                    <div class="stroka-name">
+                         <div class="myfriends">
+                             <p><a href="https://vk.com/">Мои друзья</a></p>
+                             <a href="#">
+                                 <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                             </a>
+                         </div>
+                         <div class="myfriends">
+                             <p><a href="https://vk.com/">Заявки в друзья</a></p>
+                         </div>
+                         <div class="myfriends">
+                             <p><a href="https://vk.com/">Телефонная книга</a></p>
+                         </div>
+                         <div class="myfriends">
+                             <p><a href="https://vk.com/">Новые друзья</a></p>
+                         </div>
+                         <div class="myfriends">
+                             <p><a href="https://vk.com/">Поиск друзей</a></p>
+                         </div>
+                         <div class="line-blok">
+                             <hr></hr>
+                         </div>
+                         <div class="spisok-dru">
+                             <div class="spisok">
+                                <a href="#">Списки друзей</a>
+                             </div>
+                             <div class="spisok-angle">
+                                <a href="#">
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </a>
+                             </div>
+                          </div>
+                     </div>
+
+                     <div class="maybe-friend">
+                         <div>
+                             <p>Возможные друзья</p>
+                         </div>
+                         <div class="maybe-friend-1">
+                             <div>
+                                  <span class="maybe-friend-photo">
+                                       <a href="https://vk.com/"><img src="https://stuki-druki.com/aforizms/Khabib-Nurmagomedov-01.jpg"/></a>
+                                 </span>
+                             </div>
+                             <div class="maybe-friend-text">
+                                 <div class="maybe-friend-datas-1">
+                                    <a href="https://vk.com/"><b>Habib Nurmagomedov</b></a>
+                                </div>
+                                <div class="maybe-friend-datas-2">
+                                    <a>19 общих друзей</a>
+                                </div>
+                                <div class="maybe-friend-datas-3">
+                                    <a href="https://vk.com/">+ Добавить в друзья</a>
+                                </div>
+                             </div>
+                         </div>
+                         <div class="maybe-friend-2">
+                             <div>
+                                  <span class="maybe-friend-photo">
+                                       <a href="https://vk.com/"><img src="https://verybet.ru/wp-content/uploads/2022/07/kamaru-usman.jpg.webp"/></a>
+                                 </span>
+                             </div>
+                             <div class="maybe-friend-text">
+                                 <div class="maybe-friend-datas-1">
+                                    <a href="https://vk.com/"><b>Kamaru Usman</b></a>
+                                </div>
+                                <div class="maybe-friend-datas-2">
+                                    <a>21 общий друг</a>
+                                </div>
+                                <div class="maybe-friend-datas-3">
+                                    <a href="https://vk.com/">+ Добавить в друзья</a>
+                                </div>
+                             </div>
+                         </div>
+                         <div class="maybe-friend-2">
+                             <div>
+                                  <span class="maybe-friend-photo">
+                                       <a href="https://vk.com/"><img src="https://cdn.nur.kz/images/1120x630/6cbac00848113f74.webp?version=1"/></a>
+                                 </span>
+                             </div>
+                             <div class="maybe-friend-text">
+                                 <div class="maybe-friend-datas-1">
+                                    <a href="https://vk.com/"><b>Shavkat Rahmonov</b></a>
+                                </div>
+                                <div class="maybe-friend-datas-2">
+                                    <a>4 общих друга</a>
+                                </div>
+                                <div class="maybe-friend-datas-3">
+                                    <a href="https://vk.com/">+ Добавить в друзья</a>
+                                </div>
+                             </div>
+                         </div>
+                         <div class="maybe-friend-2">
+                             <div>
+                                  <span class="maybe-friend-photo">
+                                       <a href="https://vk.com/"><img src="https://img.championat.com/s/1350x900/news/big/m/t/u-abdulrashida-sadulaeva-zolotaya-medal_16283421321447449089.jpg"/></a>
+                                 </span>
+                             </div>
+                             <div class="maybe-friend-text">
+                                 <div class="maybe-friend-datas-1">
+                                    <a href="https://vk.com/"><b>Abdulrashid Sadulaev</b></a>
+                                </div>
+                                <div class="maybe-friend-datas-2">
+                                    <a>3 общих друга</a>
+                                </div>
+                                <div class="maybe-friend-datas-3">
+                                    <a href="https://vk.com/">+ Добавить в друзья</a>
+                                </div>
+                             </div>
+                         </div>
+                         <div class="maybe-friend-2">
+                             <div>
+                                  <span class="maybe-friend-photo">
+                                       <a href="https://vk.com/"><img src="https://vringe.com/presize/177x0x230x0x85/upload/iblock/808/808e529e4aea51f6597fa8d0dc05ada7.jpg"/></a>
+                                 </span>
+                             </div>
+                             <div class="maybe-friend-text">
+                                 <div class="maybe-friend-datas-1">
+                                    <a href="https://vk.com/"><b>Damir Ismagulov</b></a>
+                                </div>
+                                <div class="maybe-friend-datas-2">
+                                    <a>12 общих друзей</a>
+                                </div>
+                                <div class="maybe-friend-datas-3">
+                                    <a href="https://vk.com/">+ Добавить в друзья</a>
+                                </div>
+                             </div>
+                         </div>
+                         <div class="line-bottom">
+                             <hr></hr>
+                         </div>
+
+                         <div class="show-all">
+                             <div class="show">
+                                <a href="#">Показать всех</a>
+                             </div>
+                             <div class="show-angle">
+                                <a href="#">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                             </div>
+                          </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+CSS
+.First {
+    background-color: white;
+    color: black;
+    font-family:tahoma;
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.First_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    border-radius: 5px;
+}
+
+.VK a i {
+    background-color: #1e90ff;
+    color: white;
+    width: 50%;
+    border: 0px solid blue;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.VK {
+    background-color: white;
+    width: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.First-1 {
+    width: 10%;
+}
+
+.First-1 p {
+    width: 40%;
+    height: 22px;
+    font-family:arial;
+    font-size: 20px;
+    margin-left: 1px
+}
+
+.Search {
+    width: 14%;
+    border: 0px solid green;
+    margin-left: 48px
+}
+
+.Search-1 {
+    background-color: #f2f3f4;
+    border-radius: 10px;
+    padding: 5px 5px;
+    width: 150%;
+}
+
+.into {
+    border: 0px solid blue;
+    margin-left: 65px;
+    margin-right: 15px;
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.into p {
+    font-family:Arial;
+    font-size: 16px;
+    padding-top: 5px
+    color:black;
+}
+
+.into a i {
+    justify-content: center;
+    align-items: center;
+    color:#777777;
+    padding: 15px 10px;
+}
+
+.circle-image-head img {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.circle-image-head {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.Second-1 {
+    background-color: #f2f3f4;
+    display:flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border: 0px solid blue;
+}
+
+.Second {
+    font-family:Arial;
+    display: flex;
+    width: 98%;
+    border: 0px solid green;
+}
+
+.corner {
+    width: 12.2%;
+    display:flex;
+    border: 0px solid red;
+    margin-top: 10px;
+}
+
+.corner-icon a i {
+    font-size: 23px;
+    text-decoration: none;
+    margin-top: 6px;
+    color: #4a6182;
+}
+.corner-back {
+    margin-top: 8px;
+}
+.corner-back a {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #4a6182;
+    text-decoration: none;
+    font-family:Arial;
+}
+
+.ID_1 {
+    width: 13.5%;
+    border: 0px solid red;
+    margin-top: 18px;
+}
+
+.line_1 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-right: 0px;
+    font-size: 10px;
+}
+.line_1 i {
+    color: #1e90ff;
+    width: 13%;
+    border: 0px solid #1e90ff;
+    padding: 8px 5px;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.line_Div {
+    text-decoration: none;
+    border: 0px solid blue;
+    margin-left: 2px;
+}
+.line_Div_u {
+    text-decoration: none;
+    border: 0px solid blue;
+    margin-left: 0px;
+}
+.line_Div_u p a {
+    color:black;
+    text-decoration: none;
+    font-family: Arial;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    padding: 20px 5px;
+}
+
+.line_Div p a {
+    color:black;
+    text-decoration: none;
+    font-family: Arial;
+    margin-left: 3px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    padding: 20px 5px;
+}
+
+.line1 hr {
+    border-bottom: 0px solid gray;
+    width: 70%;
+    margin-left: 45px;
+}
+
+.text_fin-1 {
+    text-decoration: none;
+    border: 0px solid blue;
+    margin-left: 5px;
+    margin-top:-10px;
+    display: flex;
+}
+.text_fin-2 {
+    text-decoration: none;
+    border: 0px solid blue;
+    margin-left: 5px;
+    margin-top:-30px;
+    display: flex;
+}
+.text_fin_1 p a {
+    font-size: 13px;
+    text-decoration: none;
+    color:#777777;
+}
+.text_fin_2 {
+    margin-left: 15px;
+}
+.text_fin_2_2 {
+    margin-left: 7px;
+}
+.text_fin_2 p a {
+    font-size: 13px;
+    text-decoration: none;
+    color:#777777;
+}
+.text_fin_2_2 a i {
+    font-size: 14px;
+    text-decoration: none;
+    margin-top:20px;
+    color:#777777;
+}
+
+
+.block-2 {
+    width: 43%;
+    background-color:white;
+    border: 0px solid green;
+    margin-left: 5px;
+    margin-top: 18px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.Notes {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid blue;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+.Notes-line {
+    display: flex;
+    border: 0px solid red;
+    flex-direction: row;
+    height: 53px;
+    margin-left: 14px;
+}
+.Notes-line-1 {
+    border: 0px solid blue;
+    text-align:center;
+}
+
+.Notes-line-1 p a {
+    color:#777777;
+    text-decoration: none;
+    font-size: 14px;
+    display:inline-block;
+    line-height: 50px;
+    margin-top:-75px;
+}
+.Notes-line-1 p a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #1e90ff;
+    transition: width 0s ease-in-out;
+}
+.Notes-line-1 p a:hover:after,
+.Notes-line-1 p a:focus:after {
+    width: 100%;
+}
+.Notes-line-1:hover p a {
+    color: black;
+}
+
+.Notes-line-2 p a {
+    color:#777777;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+    margin-top:7px;
+    display:inline-block;
+    line-height: 50px;
+    margin-top:-75px;
+}
+.Notes-line-2 p a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #1e90ff;
+    transition: width 0s ease-in-out;
+}
+.Notes-line-2 p a:hover:after,
+.Notes-line-2 p a:focus:after {
+    width: 100%;
+}
+.Notes-line-2:hover p a {
+    color: black;
+}
+
+.Notes-line-button {
+    margin-left: 225px;
+    margin-top: 12px;
+}
+.Notes-line-button button {
+    background-color: #2d699b;
+    border: 0px solid gray;
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-right: 18px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+}
+.Notes-line-button button a {
+    color:white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 13px;
+    margin-top:16px;
+}
+.line-end hr {
+    border-bottom: 0px solid gray;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.Search-friends {
+    display: flex;
+    flex-direction:row;
+    margin-left: 14px;
+}
+.Search-friends a i {
+    color: gray;
+    margin-top: 8px;
+}
+.input {
+    border: 0px solid gray;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.input input {
+    border: 0px solid gray;
+}
+.parametr {
+    margin-left: 290px;
+    margin-top: 8px;
+}
+.parametr a {
+    margin-top: 8px;
+    margin-left: 15px;
+    color:#4a6182;
+    font-size: 14px;
+    text-decoration: none;
+}
+.angle {
+    margin-left: 8px;
+}
+.angle a i {
+    margin-top: 8px;
+}
+.line-full {
+    margin-top: 8px;
+}
+
+.friend-1 {
+    display: flex;
+    flex-direction:row;
+    margin-left: 14px;
+    margin-top:8px;
+}
+.friend-1-image {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 87px;
+    height: 87px;
+    background-color: #b9c5d5;
+    text-align:center;
+}
+.friend-1-image img {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.friend-1-image a i {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  color:#879cb7;
+  margin-top:20px;
+}
+.friend-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.friend-datas {
+    margin-top: 8px;
+}
+.friends-icon-1 {
+    margin-top: 8px;
+    margin-right: 15px;
+}
+.friends-icon-1 a i {
+    color: gray;
+    font-size: 19px;
+    margin-left: 325px;
+}
+.friends-icon-2 {
+    margin-top: 8px;
+    margin-right: 15px;
+}
+
+.friends-icon-2 a i {
+    color: gray;
+    font-size: 19px;
+    margin-left: 245px;
+}
+.friends-icon-3 {
+    margin-top: 8px;
+    margin-right: 15px;
+}
+
+.friends-icon-3 a i {
+    color: gray;
+    font-size: 19px;
+    margin-left: 245px;
+}
+.friends-icon-4 {
+    margin-top: 8px;
+    margin-right: 15px;
+}
+
+.friends-icon-4 a i {
+    color: gray;
+    font-size: 19px;
+    margin-left: 245px;
+}
+.friends-icon-5 {
+    margin-top: 8px;
+    margin-right: 15px;
+}
+
+.friends-icon-5 a i {
+    color: gray;
+    font-size: 19px;
+    margin-left: 326px;
+}
+.friends-icon-6 {
+    margin-top: 8px;
+    margin-right: 15px;
+}
+
+.friends-icon-6 a i {
+    color: gray;
+    font-size: 19px;
+    margin-left: 245px;
+}
+
+.friend-datas a {
+    font-family:Arial;
+    color: #4a6182;
+    font-size: 15px;
+    text-decoration: none;
+}
+.friend-datas-1 {
+    margin-top: 8px;
+}
+.friend-datas-1 a {
+    color:#777777;
+    text-decoration: none;
+    font-size: 13px;
+}
+.friend-datas-2 {
+    display: flex;
+    flex-direction:row;
+    margin-top: 8px;
+}
+.friend-datas-2 i {
+    font-size: 4px;
+    margin-top: 7px;
+    color:#777777;
+    margin-left: 7px;
+}
+.friend-datas-2 a {
+    color:#4a6182;
+    text-decoration: none;
+    font-size: 13px;
+}
+.friend-datas-2 p {
+    margin-left: 7px;
+    margin-top: -2px;
+}
+
+.friend-datas-2 p a {
+    color:#4a6182;
+    text-decoration: none;
+    font-size: 13px;
+    font-family:Arial;
+}
+.line-short {
+    margin-top: 8px;
+    width: 91%;
+    margin-left:20px;
+}
+
+.block-3 {
+    width: 16.5%;
+    border: 0px solid red;
+    margin-left: 10px;
+    margin-top: 18px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stroka-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0px solid blue;
+    background-color: white;
+    border-radius: 5px;
+}
+.myfriends {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 0px solid green;
+    height: 40px;
+}
+.myfriends:hover{
+background-color:#f2f3f4;
+}
+.myfriends:hover p a {
+    color:black;
+}
+.myfriends p {
+    margin-left: 10px;
+}
+.myfriends a i {
+    margin-left: 128px;
+    margin-top: 18px;
+    color:#4a6182;
+}
+.myfriends p a {
+    font-family:Arial;
+    color:#4a6182;
+    text-decoration: none;
+    font-size: 13px;
+}
+.line-blok hr {
+    border-bottom: 0px solid gray;
+    width: 90%;
+    margin-top: 8px;
+}
+.spisok-dru {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 42px;
+}
+.spisok {
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.spisok a {
+    color:#4a6182;
+    font-size: 13px;
+    text-decoration: none;
+}
+.spisok-angle {
+    margin-top:2px;
+    margin-left: 3px;
+}
+
+.spisok-angle a i {
+    margin-top: 8px;
+    color:#4a6182;
+}
+
+.maybe-friend {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid blue;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 8px;
+    margin-top: 10px;
+    width: 100%;
+}
+.maybe-friend p {
+    font-family:Arial;
+    color:black;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.maybe-friend-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.maybe-friend-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.maybe-friend-photo {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 55px;
+    height: 55px;
+    background-color: #b9c5d5;
+    text-align:center;
+}
+.maybe-friend-photo img {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.maybe-friend-datas-1 a {
+    font-family:Arial;
+    color: #4a6182;
+    font-size: 13px;
+    text-decoration: none;
+}
+.maybe-friend-datas-1 a {
+    font-family:Arial;
+    color: #4a6182;
+    font-size: 13px;
+    text-decoration: none;
+}
+.maybe-friend-datas-2 a {
+    color:#777777;
+    text-decoration: none;
+    font-size: 13px;
+}
+.maybe-friend-datas-3 a {
+    color:#4a6182;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.maybe-friend-2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.line-bottom {
+    margin-top:15px;
+}
+.line-bottom hr {
+    border-bottom: 0px solid gray;
+    width: 100%;
+}
+.show-all {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 42px;
+    justify-content: center;
+}
+.show {
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.show a {
+    color:#4a6182;
+    font-size: 13px;
+    text-decoration: none;
+}
+.show-angle {
+    margin-top:2px;
+    margin-left: 5px;
+}
+
+.show-angle a i {
+    margin-top: 8px;
+    color:#4a6182;
+}
+
+
+
+
+
+
